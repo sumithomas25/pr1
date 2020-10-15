@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Coffeestyle.xsl"?>
+<!DOCTYPE coffeedetails SYSTEM "Coffeetype.dtd">
+
+<coffeedetails>
+<coffeeshop cid="C1">
+<name>menti</name>
+<add>xyx</add>
+<cont>8787655322</cont>
+
+</coffeeshop>
+
+<coffeeshop cid="C2">
+<name>kenti</name>
+<add>eyx</add>
+<cont>8787655322</cont>
+
+</coffeeshop>
+
+<coffeeshop cid="C3">
+<name>benti</name>
+<add>x7x</add>
+<cont>8787655322</cont>
+
+</coffeeshop>
+
+
+</coffeedetails>

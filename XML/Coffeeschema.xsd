@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" 
+targetNamespace="http://www.example.org/Coffeeschema" 
+xmlns:tns="http://www.example.org/Coffeeschema" elementFormDefault="qualified">
+
+<complexType name="Coffeetype">
+  <sequence>
+  <element name="coffeeshop" type="tns:coffeetype" maxOccurs="20" minOccurs="1"></element>
+  </sequence>
+  </complexType>
+  
+  <complexType name="coffeetype">
+  <sequence>
+  <element name="name" type="string"></element>
+  <element name="add" type="string"></element>
+  <element name="cont"  type="tns:myCont"></element> 
+  
+  </sequence>
+  
+  <attribute name="cid" type="ID" use="required"> </attribute>
+  
+  </complexType>
+  
+  <element name="globalevent" type="tns:Coffeetype"></element>
+  
+  <simpleType name="myCont">
+  <restriction base="integer">
+  <pattern value="[0-9]{10}"></pattern>
+  </restriction>
+  </simpleType>
+ 
+
+
+</schema>

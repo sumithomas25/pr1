@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:globalevent xmlns:tns="http://www.example.org/Coffeeschema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.example.org/Coffeeschema Coffeeschema.xsd ">
+  <tns:coffeeshop cid="C1">
+    <tns:name>menti</tns:name>
+    <tns:add>xyz</tns:add>
+    <tns:cont>8787655322</tns:cont>
+  </tns:coffeeshop>
+  
+  
+  
+ <tns:coffeeshop cid="C2">
+    <tns:name>kenti</tns:name>
+    <tns:add>eyx</tns:add>
+    <tns:cont>8787655322</tns:cont>
+  </tns:coffeeshop>
+  
+  
+ <tns:coffeeshop cid="C3">
+    <tns:name>benti</tns:name>
+    <tns:add>x7x</tns:add>
+    <tns:cont>8787655322</tns:cont>
+  </tns:coffeeshop>
+  
+  
+  
+</tns:globalevent>
