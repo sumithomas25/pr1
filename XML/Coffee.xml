@@ -4,23 +4,41 @@
 
 <coffeedetails>
 <coffeeshop cid="C1">
-<name>menti</name>
-<add>xyx</add>
+<name>Starbucks Coffee</name>
+<add>Samrat Building, Ground, 100 Feet Rd, HAL 2nd Stage, Indiranagar, Bengaluru, Karnataka 560008</add>
 <cont>8787655322</cont>
 
 </coffeeshop>
 
 <coffeeshop cid="C2">
-<name>kenti</name>
-<add>eyx</add>
-<cont>8787655322</cont>
+<name>Third Wave Coffee Roasters</name>
+<add>4th Block, 1, 984, 80 Feet Rd, Maharaja Signal, Koramangala, Bengaluru, Karnataka 560034</add>
+<cont>9703625364</cont>
 
 </coffeeshop>
 
 <coffeeshop cid="C3">
-<name>benti</name>
-<add>x7x</add>
-<cont>8787655322</cont>
+<name>Matteo Coffea</name>
+<add>2, Church Street, Mahatma Gandhi Rd, Bengaluru, Karnataka 560001</add>
+<cont>9113235863</cont>
+</coffeeshop>
+
+<coffeeshop cid="C4">
+<name>Hebbar's Coffee Shop</name>
+<add>109, Gundopanth St, KR Market, Mamulpet, Chickpet, Bengaluru, Karnataka 560002</add>
+<cont>9773235863</cont>
+</coffeeshop>
+
+<coffeeshop cid="C5">
+<name>Om Made Cafe</name>
+<add>No. 136, Evergreen PARC, Rooftop, 1st Cross Rd, 5th Block, Koramangala, Bengaluru, Karnataka 560095</add>
+<cont>9293235863</cont>
+</coffeeshop>
+
+<coffeeshop cid="C6">
+<name>KARMA KAAPI – CAFFEINE STUDIO</name>
+<add>1st Floor, #81, 36th Cross Rd, 5th Block, Jayanagar, Bengaluru, Karnataka 560041</add>
+<cont>9945689243</cont>
 
 </coffeeshop>
 

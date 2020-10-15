@@ -1,25 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tns:globalevent xmlns:tns="http://www.example.org/Coffeeschema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.example.org/Coffeeschema Coffeeschema.xsd ">
   <tns:coffeeshop cid="C1">
-    <tns:name>menti</tns:name>
-    <tns:add>xyz</tns:add>
+    <tns:name>Starbucks Coffee</tns:name>
+    <tns:add>Samrat Building, Ground, 100 Feet Rd, HAL 2nd Stage, Indiranagar, Bengaluru, Karnataka 560008</tns:add>
     <tns:cont>8787655322</tns:cont>
   </tns:coffeeshop>
   
   
   
  <tns:coffeeshop cid="C2">
-    <tns:name>kenti</tns:name>
-    <tns:add>eyx</tns:add>
-    <tns:cont>8787655322</tns:cont>
+    <tns:name>Third Wave Coffee Roasters</tns:name>
+    <tns:add>4th Block, 1, 984, 80 Feet Rd, Maharaja Signal, Koramangala, Bengaluru, Karnataka 560034</tns:add>
+    <tns:cont>9703625364</tns:cont>
   </tns:coffeeshop>
   
   
  <tns:coffeeshop cid="C3">
-    <tns:name>benti</tns:name>
-    <tns:add>x7x</tns:add>
-    <tns:cont>8787655322</tns:cont>
+    <tns:name>Matteo Coffea</tns:name>
+    <tns:add>2, Church Street, Mahatma Gandhi Rd, Bengaluru, Karnataka 560001</tns:add>
+    <tns:cont>9113235863</tns:cont>
   </tns:coffeeshop>
+  
+  <tns:coffeeshop cid="C4">
+    <tns:name>Hebbar's Coffee Shop</tns:name>
+    <tns:add>109, Gundopanth St, KR Market, Mamulpet, Chickpet, Bengaluru, Karnataka 560002</tns:add>
+    <tns:cont>9773235863</tns:cont>
+  </tns:coffeeshop>
+  
+    <tns:coffeeshop cid="C5">
+    <tns:name>Om Made Cafe</tns:name>
+    <tns:add>No. 136, Evergreen PARC, Rooftop, 1st Cross Rd, 5th Block, Koramangala, Bengaluru, Karnataka 560095</tns:add>
+    <tns:cont>9293235863</tns:cont>
+  </tns:coffeeshop>
+  
+    <tns:coffeeshop cid="C6">
+    <tns:name>KARMA KAAPI – CAFFEINE STUDIO</tns:name>
+    <tns:add>1st Floor, #81, 36th Cross Rd, 5th Block, Jayanagar, Bengaluru, Karnataka 560041</tns:add>
+    <tns:cont>9945689243</tns:cont>
+  </tns:coffeeshop>
+  
+  
   
   
   
