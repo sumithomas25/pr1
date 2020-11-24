@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <!-- Add font awesome CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <title>CONTACTUS Form</title>
+    </head>
+     <body>
+   <!-- contact section -->
+         <section id="contact-section">
+           <div class="container">
+           	 <h2>Contact Us</h2>
+              <p>Email us and keep upto date with our latest news</p>
+             <div class="contact-form">
+
+                  <!-- First grid -->
+               <div>
+                 <i class="fa fa-map-marker"></i><span class="form-info">  192 Banglore City #345</span><br>
+                 <i class="fa fa-phone" > </i><span class="form-info">  +91 9034567890</span><br>
+                 <i class="fa fa-envelope"></i><span class="form-info">  coffee12@Gmail.com</span>
+               </div>
+               
+                   <!-- second grid -->
+           <div>        
+             <form onsubmit="Setcookie()">
+               <input type="text" placeholder="Your Name" required id="Your Name">
+               <input type="text" placeholder="Last Name" id="Last Name"><br>
+               <input type="Email" placeholder="Email" required id="Email"><br>
+               <input type="text" placeholder="Address" id="Address"><br>
+               <textarea name="message" placeholder="Message" rows="5" required></textarea><br>
+               <button class="submit" type="submit" >Send Message</button> </form>
+               <button>
+                <a type="button" href="domp.html"> MENU</a>
+               </button> 
+              </div>
+            </div>
+          </div>
+        </section>
+              
+<script>
+               function Setcookie()
+               {
+              console.log("hiiiiii");
+                   
+                       document.cookie=" Your Name="+document.getElementById("Your Name").value+";expires=Thu, 27 Nov 2020 23:50:00 UTC";;
+                       document.cookie=" Last Name="+document.getElementById("Last Name").value+";expires=Thu, 27 Nov 2020 23:50:00 UTC";;
+                       document.cookie=" Email="+document.getElementById("Email").value+";expires=Thu, 27 Nov 2020 23:50:00 UTC";;
+                       document.cookie=" Address="+document.getElementById("Address").value+";expires=Thu, 27 Nov 2020 23:50:00 UTC";;
+                      
+                       alert("Message sent Successfully");
+                   
+               }
+               window.onload=function()
+               {
+                   if(document.cookie.length!=0)
+                   {
+                       var Allcookies,Temp;
+                       Allcookies=document.cookie.split(";");   
+                       for(var i=0;i<Allcookies.length;i++)
+                       {
+                           Temp=Allcookies[i].split("=");
+                           if(Temp[0]==" Your Name")
+                           {
+                               document.getElementById("Your Name").value=Temp[1];
+                           }
+                           if(Temp[0]==" Last Name")
+                           {
+                               document.getElementById("Last Name").value=Temp[1];
+                           }
+                           if(Temp[0]==" Email")
+                           {
+                               document.getElementById("Email").value=Temp[1];
+                           }
+                           if(Temp[0]==" Address")
+                           {
+                               document.getElementById("Address").value=Temp[1];
+                               
+                           }
+
+                       }
+                   }
+               }
+              </script>
+             
+    
+
+         
+     </body>
+     </html>

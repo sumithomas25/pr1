@@ -1,3 +1,24 @@
+.WebContainer{
+    width: 100%;
+    height: auto;
+}
+.articles{
+    width:90%; /*Takes 90% width from WebContainer*/
+    height: auto;
+    margin: auto;
+} 
+/*header*/
+.overlay{
+   position: absolute;
+   min-height: 100%;
+   min-width: 100%;
+   left: 0;
+   top: 0;
+   background: rgba(244, 244, 244, 0.79);
+  } 
+
+
+
 *{
   margin: 0;
   padding:0;
@@ -318,3 +339,4 @@ footer{
   }
 
 }
+

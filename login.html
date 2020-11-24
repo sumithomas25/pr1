@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<title>baking registration form</title>
+<meta name="keywords" content="example, JavaScript Form Validation, Sample registration form" />
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+<script src="sample-registration-form-validation.js"></script>
+<script type="text/javascript" src='main.js'></script> 
+</head>
+<body onload="document.registration.userid.focus();">
+<h1>Banking Registration Form</h1>
+Use tab keys to move from one input field to the next.
+<form name='registration' onSubmit="return formValidation();">
+<ul>
+<li><label for="userid">User id:</label></li>
+<li><input type="text" name="userid" size="12" /></li>
+<li><label for="passid">Password:</label></li>
+<li><input type="password" name="passid" size="12" /></li>
+<li><label for="username">Name:</label></li>
+<li><input type="text" name="username" size="50" /></li>
+<li><label for="address">Address:</label></li>
+<li><input type="text" name="address" size="50" /></li>
+<li><label for="country">city:</label></li>
+<li><select name="country">
+<option selected="" value="Default">(Please select a city)</option>
+<option value="AF">Mumbai</option>
+<option value="AL">Banglore</option>
+<option value="DZ">Delhi</option>
+<option value="AS">Kolkata</option>
+<option value="AD">Chennai</option>
+</select></li>
+<li><label for="zip">Pincode:</label></li>
+<li><input type="text" name="zip" /></li>
+<li><label for="email">Email:</label></li>
+<li><input type="text" name="email" size="50" /></li>
+<li><label id="gender">Sex:</label></li>
+<li><input type="radio" name="msex" value="Male" /><span>Male</span></li>
+<li><input type="radio" name="fsex" value="Female" /><span>Female</span></li>
+<li><input type="submit" name="submit" value="Submit" /></li>
+</ul>
+</form>
+</body>
+</html>

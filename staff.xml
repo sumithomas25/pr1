@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ISO8859-1" ?>
+<coffee>
+	<employee>
+		<itemname>CAPPUCCINO</itemname>
+		<discription>A double shot of espresso with equal parts steamed milk and foam</discription>
+		<price>$23</price>
+	</employee>
+	<employee>
+		<itemname>LATTE</itemname>
+		<discription>a double shot of espresso with steamed milk and a small layer of foam</discription>
+		<price>$26</price>
+	</employee>
+	<employee>
+		<itemname>SHORT MACCHIATO</itemname>
+		<discription>a single serving of espresso, stained with milky foam</discription>
+		<price>$16</price>
+	</employee>
+	<employee>
+		<itemname>AFFOGATO</itemname>
+		<discription>a single shot of espresso served with one scoop of vanilla ice-cream</discription>
+		<price>$19</price>
+	</employee>
+	<employee>
+		<itemname>BEAN BAR LATTE</itemname>
+		<discription>a double shot of espresso with steamed milk a small layer of foam and a special sweetened coffee flavoured syrup</discription>
+		<price>$30</price>
+	</employee>
+
+</coffee>
